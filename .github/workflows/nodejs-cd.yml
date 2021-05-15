@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.PASSWORD }}
           port: 22
-          script: |
+          script: 
             cd ~/apps/ga-ci-cd-nodejs
             git pull origin main
             git status
