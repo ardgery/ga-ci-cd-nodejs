@@ -33,5 +33,4 @@ jobs:
             git pull origin main
             git status
             npm install --only=prod
-            pm2 delete YoutubeApp
-            pm2 start index.js --name YoutubeApp
+            pm2 update YoutubeApp
